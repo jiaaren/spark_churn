@@ -14,34 +14,8 @@
   - Although It was recommended that I were to utilise Amazon Web Services (AWS)'s EMR for setting up the Hadoop clusters, I have gravitated towards the Google Cloud Platform (GCP). The equivalent to AWS's EMR is GCP's Dataproc.
   - Dataproc allows seamless and easy deployment of distributed clusters, and I will be working on the GCP platform throughout the whole project.
 
-## Files
-### Structure
-```
-.
-├── README.md
-├── app
-│   ├── run.py
-│   ├── static
-│   │   ├── bootstrap-theme.min.css
-│   │   └── bootstrap.min.css
-│   └── templates
-│       ├── go.html
-│       └── master.html
-├── data
-│   ├── disaster_categories.csv
-│   ├── disaster_messages.csv
-│   └── process_data.py
-├── img
-│   ├── homepage.PNG
-│   ├── probability.PNG
-│   └── results.PNG
-└── models
-    └── train_classifier.py
-```
-
-### Dataset
-
-### Project Components
+## Blog
+- [Medium post](https://medium.com/@jiaren.kjr/sparkify-customer-churn-7e0041106cd8)
 
 ## Acknowledgements and references
 - [Spark Docs](https://spark.apache.org/docs/3.1.1/)
