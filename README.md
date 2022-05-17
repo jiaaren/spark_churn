@@ -14,10 +14,22 @@
   - Although It was recommended that I were to utilise Amazon Web Services (AWS)'s EMR for setting up the Hadoop clusters, I have gravitated towards the Google Cloud Platform (GCP). The equivalent to AWS's EMR is GCP's Dataproc.
   - Dataproc allows seamless and easy deployment of distributed clusters, and I will be working on the GCP platform throughout the whole project.
 
+## Files
+### Jupyter Notebook
+- `Sparkify-notebook.ipynb`
+
+### Dataset
+- `mini_sparkify_event_data.json`
+    - Unpack `mini_sparkify_event_data.zip`
+
 ## Analysis and Blog post
 - [Medium post](https://medium.com/@jiaren.kjr/sparkify-customer-churn-7e0041106cd8)
 
 ## Acknowledgements and references
+### Acknowledgements
+- [US Census Bureau Regions and Divisions by State](https://github.com/cphalpert/census-regions)
+
+### References
 - [Spark Docs](https://spark.apache.org/docs/3.1.1/)
 - [Spark by Example](https://sparkbyexamples.com/)
 - [Quora - Discussion over High ROC_AUC but low F1](https://www.quora.com/What-does-it-mean-to-have-high-AUC-but-low-F1-score)
